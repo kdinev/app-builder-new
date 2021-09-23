@@ -1,0 +1,5 @@
+<igx-grid [data]="northwindCategories" [allowFiltering]="true" filterMode="excelStyleFilter" [autoGenerate]="false" width="100%" height="350px" displayDensity="cosy" primaryKey="categoryID" class="grid">
+  <igx-column field="categoryID" header="categoryID" title="categoryID" dataType="number" [sortable]="true" class="igx-column"></igx-column>
+  <igx-column field="description" header="description" title="description" dataType="string" [sortable]="true" class="igx-column"></igx-column>
+  <igx-column field="name" header="name" title="name" dataType="string" [sortable]="true" class="igx-column"></igx-column>
+</igx-grid>

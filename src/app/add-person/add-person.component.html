@@ -1,0 +1,84 @@
+<div class="column-layout_5 column">
+  <igx-navbar class="navbar">
+    <div igxNavbarAction class="column-layout column">
+      <igx-icon font="material" [active]="true" class="icon_1 content">menu</igx-icon>
+    </div>
+    <div igxNavbarTitle>Adding Person</div>
+  </igx-navbar>
+  <div class="row-layout row">
+    <div class="column-layout_1 column">
+      <igx-list class="list">
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>David Cardale</h4>
+        </igx-list-item>
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>Peter Cologne</h4>
+        </igx-list-item>
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>Adam Thiel</h4>
+        </igx-list-item>
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>Amanda Cruz</h4>
+        </igx-list-item>
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>Veronica Christensen</h4>
+        </igx-list-item>
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>Anne Marie Ferguson</h4>
+        </igx-list-item>
+        <igx-list-item>
+          <igx-avatar initials="NA" icon="people" bgColor="var(--igx-grays-400)" [roundShape]="true" size="small" igxListThumbnail class="avatar"></igx-avatar>
+          <h4 igxListLineTitle>Jayden Christopher</h4>
+        </igx-list-item>
+      </igx-list>
+    </div>
+    <div class="column-layout_2 column">
+      <div class="column-layout_6 column">
+        <div class="row-layout_1 row">
+          <div class="column-layout_3 column">
+            <div class="row-layout_4 row">
+              <div class="column-layout_4 column">
+                <igx-avatar icon="account_circle" bgColor="var(--igx-grays-400)" [roundShape]="true" size="large" class="content avatar"></igx-avatar>
+                <button igxButton="icon" type="icon" [disabled]="false" class="button">
+                  <igx-icon class="icon">add</igx-icon>
+                </button>
+              </div>
+            </div>
+            <igx-input-group placeholder="e.g. John Doe" type="line" class="user-input">
+              <igx-prefix>
+                <igx-icon font="material" [active]="true" class="icon_1">account_circle</igx-icon>
+              </igx-prefix>
+              <label igxLabel for="inputField">Name</label>
+              <input type="text" name="inputField" [required]="false" [disabled]="false" placeholder="e.g. John Doe" igxInput />
+            </igx-input-group>
+            <igx-date-picker [displayMonthsCount]="1" mode="dropdown" [disabled]="false" class="user-input"></igx-date-picker>
+            <div class="unsupported">
+              &lt;!-- Unsupported component --&gt;
+            </div>
+            <div class="row-layout_2 row">
+              <p class="text">Ranking</p>
+              <div class="unsupported_1">
+                &lt;!-- Unsupported component --&gt;
+              </div>
+            </div>
+            <igx-checkbox labelPosition="after" [checked]="false" [disabled]="false" class="checkbox">Is Admin</igx-checkbox>
+            <div class="row-layout_3 row">
+              <button igxButton="raised" [disabled]="false" class="button_2">
+                <span>SAVE</span>
+              </button>
+              <button igxButton="raised" [disabled]="false" class="button_1">
+                <span>CANCEL</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
